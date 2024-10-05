@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+   
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>youssef boumallela</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+
+
+<body>
+    
+
+    
+
+       
+    
+    
+    
+    
+    
+    <!-- Barre de navigation -->
+    <header>
+        
+
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#work">Travail</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Accueil -->
+    <section id="accueil">
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <p>Explorez mon parcours, mes projets et n'hésitez pas à me contacter.</p>
+      
+    </section>
+  
+    
+    
+    <!-- Section À propos -->
+    <section id="about">
+        <h2>À propos</h2>
+        <p>Je suis un développeur passionné avec une expertise en HTML, CSS et JavaScrip.</p>
+    </section>
+
+    
+
+    <!-- Section CV -->
+    <section id="cv">
+        <h2>Mon CV</h2>
+        <table border="1">
+            <tr>
+                <th>Année</th>
+                <th>Diplôme</th>
+                <th>Institution</th>
+            </tr>
+            <tr>
+                <td>2023</td>
+                <td>bac technique</td>
+                <td>lycee menzeh 6</td>
+            </tr>
+           
+        </table>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="submit_contact.php" method="POST"> <!-- Lien local vers le traitement du formulaire -->
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+ <script src="script.js"></script>
+</body>
+
+</html>
